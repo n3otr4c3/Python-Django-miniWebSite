@@ -9,7 +9,7 @@ Il s'agit de mon premiers mini projet de type WebSite sur le framework Django qu
 
 ## Explications :
 
-Le but était de comprendre comment fonctionne les différents éléments
+Le but était de comprendre comment fonctionne les différents éléments :
 ```python
 - views.py
 - urls.py

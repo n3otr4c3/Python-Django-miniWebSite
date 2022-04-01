@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+a {
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin:0;
+    border:0;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+body {
+  background-image: url("background-blog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* "Root em", taille relative au tout premier element de la page web (balise root)*/
+    color:white;
+    background-color: rgba(0, 0, 0, .35); /* couleur noire + opacité de 0.35*/
+
+}
+
+.article {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: -0.5rem;
+}

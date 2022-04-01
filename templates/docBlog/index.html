@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Django Exercice</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bonjour et bienvenue sur ce petit exercice Django.</h1>
+        <h2>Aujourd'hui nous sommes le {{ date|date:"d F Y" }}.</h2>
+        <h3>Il est actuellement {{ date|date:"H\hi" }}.</h3>
+        <p>Envie d'en d'écouvrir d'avantage sur Djando ? L'aventure
+            <a href="/blog/">démarre ici</p>.
+    </div>
+</body>
+</html>
